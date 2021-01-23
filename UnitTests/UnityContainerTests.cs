@@ -6,12 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AnyContainer.UnitTests.RegisteredClasses;
-using Microsoft.AnyContainer.Unity;
+using AnyContainer.UnitTests.RegisteredClasses;
+using AnyContainer.Unity;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Unity;
 
-namespace Microsoft.AnyContainer.UnitTests
+namespace AnyContainer.UnitTests
 {
     [TestClass]
     public class UnityContainerTests

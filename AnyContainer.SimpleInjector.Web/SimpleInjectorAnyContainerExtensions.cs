@@ -4,7 +4,7 @@
 using System;
 using SimpleInjector;
 
-namespace Microsoft.AnyContainer.SimpleInjector.Web
+namespace AnyContainer.SimpleInjector.Web
 {
     /// <summary>
     /// Extension methods for SimpleInjectorAnyContainer.

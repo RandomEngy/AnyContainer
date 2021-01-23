@@ -92,21 +92,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.AnyContainer.DryIoc\Microsoft.AnyContainer.DryIoc.csproj">
-      <Project>{74545652-bccc-4133-a8a1-d81d08a89ff8}</Project>
-      <Name>Microsoft.AnyContainer.DryIoc</Name>
+    <ProjectReference Include="..\AnyContainer.DryIoc\AnyContainer.DryIoc.csproj">
+      <Project>{e9ea6a72-ddad-482f-8aac-77fbee18f6c2}</Project>
+      <Name>AnyContainer.DryIoc</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.AnyContainer.SimpleInjector\Microsoft.AnyContainer.SimpleInjector.csproj">
-      <Project>{1e261dc5-e7b9-4914-94f1-b96ec7d2d374}</Project>
-      <Name>Microsoft.AnyContainer.SimpleInjector</Name>
+    <ProjectReference Include="..\AnyContainer.SimpleInjector\AnyContainer.SimpleInjector.csproj">
+      <Project>{2b644a0f-8c50-48dd-a254-547cc58d34db}</Project>
+      <Name>AnyContainer.SimpleInjector</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.AnyContainer.Unity\Microsoft.AnyContainer.Unity.csproj">
-      <Project>{787b31a0-82ef-4368-8315-cac3cad3abbb}</Project>
-      <Name>Microsoft.AnyContainer.Unity</Name>
+    <ProjectReference Include="..\AnyContainer.Unity\AnyContainer.Unity.csproj">
+      <Project>{b4de18c1-00b0-4bdd-bc00-1123754b6928}</Project>
+      <Name>AnyContainer.Unity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.AnyContainer\Microsoft.AnyContainer.csproj">
-      <Project>{36eefbc5-1801-40e4-8646-0ce62ba41157}</Project>
-      <Name>Microsoft.AnyContainer</Name>
+    <ProjectReference Include="..\AnyContainer\AnyContainer.csproj">
+      <Project>{e7dbf37e-b432-4258-bf08-c641d8d1630a}</Project>
+      <Name>AnyContainer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

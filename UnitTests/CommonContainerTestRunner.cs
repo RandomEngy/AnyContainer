@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AnyContainer.UnitTests.RegisteredClasses;
+using AnyContainer.UnitTests.RegisteredClasses;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Microsoft.AnyContainer.UnitTests
+namespace AnyContainer.UnitTests
 {
     public static class CommonContainerTestRunner
     {

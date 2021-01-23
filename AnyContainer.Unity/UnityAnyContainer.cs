@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using Unity;
 
-namespace Microsoft.AnyContainer.Unity
+namespace AnyContainer.Unity
 {
 	/// <summary>
 	/// Unity implementation of the abstract container.

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.AnyContainer.UnitTests.RegisteredClasses
+namespace AnyContainer.UnitTests.RegisteredClasses
 {
     public class Logger : ILogger
     {

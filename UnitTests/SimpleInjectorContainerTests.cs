@@ -5,12 +5,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Microsoft.AnyContainer.SimpleInjector;
-using Microsoft.AnyContainer.UnitTests.RegisteredClasses;
+using AnyContainer.SimpleInjector;
+using AnyContainer.UnitTests.RegisteredClasses;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SimpleInjector;
 
-namespace Microsoft.AnyContainer.UnitTests
+namespace AnyContainer.UnitTests
 {
     [TestClass]
     public class SimpleInjectorContainerTests

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using SimpleInjector;
 
-namespace Microsoft.AnyContainer.SimpleInjector
+namespace AnyContainer.SimpleInjector
 {
 	/// <summary>
 	/// Register items in the singleton scope for Simple Injector.

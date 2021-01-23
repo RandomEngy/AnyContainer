@@ -4,24 +4,22 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Unity;
-using Unity.Injection;
-using Unity.Lifetime;
+using SimpleInjector;
 
-namespace Microsoft.AnyContainer.Unity
+namespace AnyContainer.SimpleInjector
 {
 	/// <summary>
-	/// Registers items in the Transient scope for Unity.
+	/// Register items in the transient scope for Simple Injector.
 	/// </summary>
-    internal class UnityTransientScopeRegistrar : ScopeRegistrar
+	internal class SimpleInjectorTransientScopeRegistrar : ScopeRegistrar
     {
-	    private readonly IUnityContainer container;
+	    private readonly Container container;
 
 		/// <summary>
-		/// Creates a new instance of the <see cref="UnityTransientScopeRegistrar"/> class.
+		/// Creates a new instance of the <see cref="SimpleInjectorTransientScopeRegistrar"/> class.
 		/// </summary>
-		/// <param name="container">The unity container to do the registering.</param>
-	    public UnityTransientScopeRegistrar(IUnityContainer container)
+		/// <param name="container">The Simple Injector container to use to register.</param>
+		public SimpleInjectorTransientScopeRegistrar(Container container)
 	    {
 		    this.container = container;
 	    }
@@ -33,7 +31,7 @@ namespace Microsoft.AnyContainer.Unity
 	    /// <typeparam name="TResolvedTo">The type to implement the registration.</typeparam>
 		public override void Register<TRegisteredAs, TResolvedTo>()
 	    {
-		    this.container.RegisterType<TRegisteredAs, TResolvedTo>();
+		    this.container.Register<TRegisteredAs, TResolvedTo>(Lifestyle.Transient);
 	    }
 
         /// <summary>
@@ -43,7 +41,7 @@ namespace Microsoft.AnyContainer.Unity
         /// <param name="resolvedTo">The type to implement the registration.</param>
         public override void Register(Type registeredAs, Type resolvedTo)
         {
-            this.container.RegisterType(registeredAs, resolvedTo);
+            this.container.Register(registeredAs, resolvedTo, Lifestyle.Transient);
         }
 
         /// <summary>
@@ -53,7 +51,7 @@ namespace Microsoft.AnyContainer.Unity
 	    /// <param name="factory">The factory to create the type.</param>
 		public override void Register<T>(Func<T> factory)
 	    {
-		    this.container.RegisterType<T>(new InjectionFactory(c => factory()));
+		    this.container.Register<T>(factory, Lifestyle.Transient);
 	    }
 
 	    /// <summary>
@@ -62,7 +60,16 @@ namespace Microsoft.AnyContainer.Unity
 	    /// <typeparam name="T">The type to register.</typeparam>
 		public override void Register<T>()
 	    {
-		    this.container.RegisterType<T>();
+		    this.container.Register<T>(Lifestyle.Transient);
 	    }
-	}
+
+        /// <summary>
+        /// Registers a type.
+        /// </summary>
+        /// <param name="componentType">The type to register.</param>
+        public override void Register(Type componentType)
+        {
+            this.container.Register(componentType);
+        }
+    }
 }

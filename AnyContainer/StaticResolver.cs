@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.AnyContainer
+namespace AnyContainer
 {
     /// <summary>
     /// Resolves instances of types.

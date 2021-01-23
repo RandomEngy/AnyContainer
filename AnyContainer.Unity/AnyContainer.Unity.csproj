@@ -1,27 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.0;net46</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net46</TargetFrameworks>
+    <Company>Microsoft</Company>
     <Authors>Microsoft</Authors>
-    <Description>Allows easily switching out IoC containers without rewriting code. This package supports Simple Injector.</Description>
+    <Description>Allows easily switching out IoC containers without rewriting code. This package supports the Unity container.</Description>
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
     <PackageLicenseUrl>https://github.com/Microsoft/AnyContainer/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Microsoft/AnyContainer</PackageProjectUrl>
-    <PackageTags>DI IoC Container Dependency-Injection SimpleInjector</PackageTags>
+    <PackageTags>DI IoC Container Dependency-Injection Unity</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Version>1.0.0</Version>
-    <PackageId>Microsoft.AnyContainer.SimpleInjector</PackageId>
+    <PackageId>Microsoft.AnyContainer.Unity</PackageId>
     <PackageIconUrl>https://raw.githubusercontent.com/Microsoft/AnyContainer/master/AnyContainerIcon.png</PackageIconUrl>
-    <AssemblyName>Microsoft.AnyContainer.SimpleInjector</AssemblyName>
-    <RootNamespace>Microsoft.AnyContainer.SimpleInjector</RootNamespace>
+    <AssemblyName>AnyContainer.Unity</AssemblyName>
+    <RootNamespace>AnyContainer.Unity</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SimpleInjector" Version="4.3.0" />
+    <PackageReference Include="Unity" Version="5.8.6" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.AnyContainer\Microsoft.AnyContainer.csproj" />
+    <ProjectReference Include="..\AnyContainer\AnyContainer.csproj" />
   </ItemGroup>
 
 </Project>

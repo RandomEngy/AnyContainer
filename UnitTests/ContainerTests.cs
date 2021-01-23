@@ -2,12 +2,12 @@
 // Licensed under the MIT License.
 
 using System;
-using Microsoft.AnyContainer.DryIoc;
-using Microsoft.AnyContainer.Unity;
-using Microsoft.AnyContainer.SimpleInjector;
+using AnyContainer.DryIoc;
+using AnyContainer.Unity;
+using AnyContainer.SimpleInjector;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Microsoft.AnyContainer.UnitTests
+namespace AnyContainer.UnitTests
 {
     [TestClass]
     public class ContainerTests

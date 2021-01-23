@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using DryIoc;
 
-namespace Microsoft.AnyContainer.DryIoc
+namespace AnyContainer.DryIoc
 {
 	/// <summary>
 	/// DryIoc implementation of the abstract container.

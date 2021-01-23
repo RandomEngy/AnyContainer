@@ -4,11 +4,11 @@
 using System;
 using System.Collections.Generic;
 using DryIoc;
-using Microsoft.AnyContainer.DryIoc;
-using Microsoft.AnyContainer.UnitTests.RegisteredClasses;
+using AnyContainer.DryIoc;
+using AnyContainer.UnitTests.RegisteredClasses;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Microsoft.AnyContainer.UnitTests
+namespace AnyContainer.UnitTests
 {
 	[TestClass]
 	public class DryIocContainerTests

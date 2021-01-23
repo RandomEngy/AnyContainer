@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using SimpleInjector;
 
-namespace Microsoft.AnyContainer.SimpleInjector
+namespace AnyContainer.SimpleInjector
 {
 	/// <summary>
 	/// Simple Injector implementation of the abstract container.

@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Microsoft.AnyContainer
+namespace AnyContainer
 {
 	/// <summary>
 	/// Registers types for a specific scope (Singleton, transient, etc).
