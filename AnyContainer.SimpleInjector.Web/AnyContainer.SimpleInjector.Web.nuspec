@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AnyContainer.SimpleInjector.Web</id>
+    <version>1.0.0</version>
+    <title>AnyContainer.SimpleInjector.Web</title>
+    <authors>RandomEngy</authors>
+    <owners>AnyContainer</owners>
+    <licenseUrl>https://github.com/RandomEngy/AnyContainer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RandomEngy/AnyContainer</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/RandomEngy/AnyContainer/master/AnyContainerIcon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Allows easily switching out IoC containers without rewriting code. This package supports the web request scope for SimpleInjector.</description>
+    <copyright>© RandomEngy. All rights reserved.</copyright>
+    <tags>DI IoC SimpleInjector Container Dependency-Injection</tags>
+    <dependencies>
+      <dependency id="AnyContainer" version="$buildNum$"/>
+      <dependency id="AnyContainer.SimpleInjector" version="$buildNum$"/>
+      <dependency id="SimpleInjector.Integration.Web" version="4.3.0"/>
+    </dependencies>	
+  </metadata>
+</package>

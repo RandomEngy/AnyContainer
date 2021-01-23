@@ -45,7 +45,7 @@
     <Compile Include="SimpleInjectorWebRequestScopeRegistrar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Microsoft.AnyContainer.SimpleInjector.Web.nuspec" />
+    <None Include="AnyContainer.SimpleInjector.Web.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AnyContainer.SimpleInjector\AnyContainer.SimpleInjector.csproj">

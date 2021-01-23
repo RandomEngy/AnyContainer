@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;net46</TargetFrameworks>
-    <Authors>Microsoft</Authors>
+    <Authors>RandomEngy</Authors>
     <Description>Allows easily switching out IoC containers without rewriting code. This package supports DryIoc.</Description>
-    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <PackageLicenseUrl>https://github.com/Microsoft/AnyContainer/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/Microsoft/AnyContainer</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/Microsoft/AnyContainer/master/AnyContainerIcon.png</PackageIconUrl>
+    <Copyright>© RandomEngy. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/RandomEngy/AnyContainer/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/RandomEngy/AnyContainer</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/RandomEngy/AnyContainer/master/AnyContainerIcon.png</PackageIconUrl>
     <PackageTags>DI IoC Container Dependency-Injection DryIoc</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Version>1.0.0</Version>

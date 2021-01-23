@@ -1,7 +1,4 @@
-﻿// Copyright © Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License.
-
-using System;
+﻿using System;
 using SimpleInjector;
 
 namespace AnyContainer.SimpleInjector.Web
